@@ -1,0 +1,56 @@
+# --- Operating System Files (Mac/Linux/Windows) ---
+# Mac system files that create clutter
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# --- Python ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+# Ignore the environment folder to avoid uploading thousands of library files
+venv/
+.venv/
+env/
+.env
+anaconda3/
+
+# --- IDE Settings ---
+# Ignore local editor configuration
+.vscode/
+.idea/
+
+# --- Data & Large Files (Important) ---
+# Keep data local. Do not upload CSVs, Excel files, or raw datasets.
+data/
+datasets/
+raw_data/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.txt
+
+# --- Deep Learning & Model Weights ---
+# Trained models are binary and heavy. Do not upload them.
+*.pth
+*.pt
+*.h5
+*.keras
+*.pkl
+*.onnx
+models/
+weights/
+checkpoints/
+
+# --- Jupyter Notebooks ---
+# Checkpoints created automatically by Jupyter
+.ipynb_checkpoints/
+
+# --- Logs and Private Info ---
+*.log
+secrets.py
